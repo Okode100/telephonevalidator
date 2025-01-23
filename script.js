@@ -16,9 +16,9 @@ document.getElementById("check-btn").addEventListener("click", () => {
     const isValid = validUSPhoneRegex.test(inputValue);
 
     if (isValid) {
-        resultsDiv.textContent = `Valid US number: ${inputValue}`;
+        resultsDiv.textContent = `This is a Valid number: ${inputValue}`;
     } else {
-        resultsDiv.textContent = `Invalid US number: ${inputValue}`;
+        resultsDiv.textContent = `This is a Invalid Number: ${inputValue}`;
     }
 });
 
